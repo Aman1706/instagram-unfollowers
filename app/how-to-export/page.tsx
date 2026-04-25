@@ -65,7 +65,7 @@ const HowToExport = () => (
       <p className="text-[12px] tracking-[0.3em] uppercase text-rose mb-6 animate-rise [animation-delay:40ms]">
         Instagram · Data Export Guide
       </p>
-      <h1 className="font-serif text-[clamp(48px,9vw,96px)] font-black leading-[0.92] tracking-[-0.02em] animate-rise [animation-delay:100ms]">
+      <h1 className="font-serif text-[clamp(48px,9vw,96px)] font-black leading-[0.92] tracking-[-0.01em] animate-rise [animation-delay:100ms]">
         How to<br />
         <em className="italic text-rose">export</em>
         <br />

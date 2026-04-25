@@ -38,7 +38,7 @@ const Home = () => {
         <p className="text-[12px] tracking-[0.3em] uppercase text-rose mb-6 animate-rise [animation-delay:0ms]">
           Instagram · Unfollower Audit
         </p>
-        <h1 className="font-serif text-[clamp(56px,10vw,104px)] font-black leading-[0.92] tracking-[-0.02em] animate-rise [animation-delay:80ms]">
+        <h1 className="font-serif text-[clamp(56px,10vw,104px)] font-black leading-[0.92] tracking-[-0.01em] animate-rise [animation-delay:80ms]">
           Who<br /><em className="italic text-rose">ghosted</em><br />you back?
         </h1>
         <p className="mt-7 text-[16px] leading-[1.85] text-ink/55 max-w-105 animate-rise [animation-delay:160ms]">
