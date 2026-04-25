@@ -58,7 +58,7 @@ export const UploadZone = ({ title, path, state, onFile, onClear, count, icon }:
 
   return (
     <div
-      className={`upload-zone relative border rounded-sm p-8 px-6 cursor-pointer overflow-hidden transition-[border-color,background] duration-200 ${stateClasses[state]} ${dragging ? "!border-rose !bg-rose/12" : ""}`}
+      className={`upload-zone relative border rounded-sm py-8 px-6 cursor-pointer overflow-hidden transition-colors duration-200 ${stateClasses[state]} ${dragging ? "!border-rose !bg-rose/12" : ""}`}
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
       onDrop={handleDrop}
@@ -85,7 +85,7 @@ export const UploadZone = ({ title, path, state, onFile, onClear, count, icon }:
       )}
       <span className={`block text-[22px] mb-3.5 ${iconColor[state]}`}>{icon}</span>
       <p className="font-serif text-[22px] font-bold text-ink mb-1">{title}</p>
-      <p className="text-[9px] text-dim tracking-[0.04em] mb-[18px] break-all">{path}</p>
+      <p className="text-[9px] text-dim tracking-[0.04em] mb-4.5 break-all">{path}</p>
       <span className={`text-[12px] tracking-[0.12em] uppercase ${statusColor[state]}`}>
         {statusText}
       </span>

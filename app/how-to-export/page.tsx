@@ -50,7 +50,7 @@ const steps = [
 ];
 
 const HowToExport = () => (
-  <main className="max-w-[860px] mx-auto px-7 pt-[72px] pb-[140px]">
+  <main className="max-w-215 mx-auto px-7 pt-18 pb-35">
     <div className="mb-10 animate-rise [animation-delay:0ms]">
       <Link
         href="/"
@@ -71,13 +71,13 @@ const HowToExport = () => (
         <br />
         your data
       </h1>
-      <p className="mt-7 text-[16px] leading-[1.85] text-ink/55 max-w-[420px] animate-rise [animation-delay:180ms]">
+      <p className="mt-7 text-[16px] leading-[1.85] text-ink/55 max-w-105 animate-rise [animation-delay:180ms]">
         Instagram lets you download a full copy of your account data. Follow
         these steps to get the two JSON files this tool needs.
       </p>
     </header>
 
-    <div className="my-10 h-px bg-gradient-to-r from-edge to-transparent animate-rise [animation-delay:240ms]" />
+    <div className="my-10 h-px bg-linear-to-r from-edge to-transparent animate-rise [animation-delay:240ms]" />
 
     <span className="text-[12px] tracking-[0.25em] uppercase text-dim mb-8 block animate-rise [animation-delay:280ms]">
       // seven steps
@@ -100,7 +100,7 @@ const HowToExport = () => (
             <p className="text-[16px] leading-[1.85] text-ink/55">{step.detail}</p>
 
             {step.highlight && (
-              <p className="mt-3 text-[12px] tracking-[0.1em] uppercase text-rose">
+              <p className="mt-3 text-[12px] tracking-widest uppercase text-rose">
                 ↳ {step.highlight}
               </p>
             )}
@@ -110,7 +110,7 @@ const HowToExport = () => (
                 {step.files.map((f) => (
                   <li
                     key={f}
-                    className="inline-flex items-center gap-2 text-[12px] text-rose/80 tracking-[0.04em] border border-rose/15 bg-rose/4 rounded-sm px-3 py-[7px] w-fit"
+                    className="inline-flex items-center gap-2 text-[12px] text-rose/80 tracking-[0.04em] border border-rose/15 bg-rose/4 rounded-sm px-3 py-1.75 w-fit"
                   >
                     <span className="text-rose/40">↳</span>
                     <span className="font-mono">{f}</span>
@@ -133,7 +133,7 @@ const HowToExport = () => (
       </p>
       <Link
         href="/"
-        className="inline-flex items-center gap-3 py-[13px] px-[30px] bg-rose text-canvas rounded-sm font-mono text-[12px] tracking-[0.18em] uppercase font-medium no-underline transition-[opacity,transform] duration-200 hover:opacity-85 hover:-translate-y-0.5"
+        className="inline-flex items-center gap-3 py-3.25 px-7.5 bg-rose text-canvas rounded-sm font-mono text-[12px] tracking-[0.18em] uppercase font-medium no-underline transition-[opacity,transform] duration-200 hover:opacity-85 hover:-translate-y-0.5"
       >
         <span>→</span>
         <span>Go to analyser</span>
