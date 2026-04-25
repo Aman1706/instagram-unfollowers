@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --color-canvas: #080808;
+  --color-surface: #111111;
+  --color-surface-up: #181818;
+  --color-edge: #222222;
+  --color-ink: #ede8e3;
+  --color-dim: #555555;
+  --color-rose: #d98fa0;
+  --color-jade: #6dcfa3;
+  --color-ember: #e05252;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@layer utilities {
+  .animate-rise {
+    animation: rise 0.7s ease forwards;
+    opacity: 0;
+  }
+}

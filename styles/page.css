@@ -1,0 +1,14 @@
+/* Radial glow on upload zone hover — not expressible in Tailwind */
+.upload-zone::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at top left, rgba(217, 143, 160, 0.12), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.upload-zone:hover::before {
+  opacity: 1;
+}
