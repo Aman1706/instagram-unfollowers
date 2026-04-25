@@ -123,7 +123,7 @@ const HowToExport = () => (
       ))}
     </ol>
 
-    <div className="mt-14 p-6 border border-edge rounded-sm bg-surface">
+    <div className="mt-14 p-6 border border-edge rounded-sm bg-surface flex flex-col items-center text-center sm:items-start sm:text-left">
       <p className="text-[12px] tracking-[0.2em] uppercase text-dim mb-3">
         // ready to analyse?
       </p>
