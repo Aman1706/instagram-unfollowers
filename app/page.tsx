@@ -56,7 +56,7 @@ const Home = () => {
         </span>
         <Link
           href="/how-to-export"
-          className="text-[12px] tracking-[0.15em] uppercase text-dim no-underline transition-colors duration-150 hover:text-rose font-extrabold"
+          className="text-[12px] tracking-[0.15em] uppercase text-rose no-underline transition-colors duration-150 hover:text-rose"
         >
           How to export ↗
         </Link>
