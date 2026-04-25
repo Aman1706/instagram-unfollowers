@@ -50,13 +50,13 @@ const Home = () => {
 
       <div className="my-5 h-px bg-gradient-to-r from-edge to-transparent animate-rise [animation-delay:220ms]" />
 
-      <div className="flex items-center justify-between mb-5 animate-rise [animation-delay:280ms]">
+      <div className="flex flex-col gap-5 md:flex-row items-start md:items-center justify-between mb-5 animate-rise [animation-delay:280ms]">
         <span className="text-[12px] tracking-[0.25em] uppercase text-dim">
           // upload your export files
         </span>
         <Link
           href="/how-to-export"
-          className="text-[12px] tracking-[0.15em] uppercase text-dim no-underline transition-colors duration-150 hover:text-rose"
+          className="text-[12px] tracking-[0.15em] uppercase text-dim no-underline transition-colors duration-150 hover:text-rose font-extrabold"
         >
           How to export ↗
         </Link>
