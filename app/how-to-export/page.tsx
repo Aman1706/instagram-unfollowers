@@ -3,45 +3,45 @@ import Link from "next/link";
 const steps = [
   {
     n: "01",
-    title: "Open Instagram Settings",
+    title: "Open Accounts Center",
     detail:
-      "On mobile, tap your profile picture → the hamburger menu (☰) → Settings and privacy. On desktop, click your profile photo → Settings.",
+      "On mobile, tap the hamburger menu (☰) on your profile → Accounts Center. On desktop, click the settings icon → Settings and privacy → Accounts Center.",
   },
   {
     n: "02",
-    title: "Navigate to Your Activity",
+    title: "Your Information and Permissions",
     detail:
-      'Scroll down and tap "Your activity", then choose "Download your information" → "Download or transfer information".',
+      'Inside Accounts Center, tap "Your Information and Permissions".',
   },
   {
     n: "03",
-    title: "Select Some of your information",
-    detail:
-      'Instagram will ask what to include. Choose "Some of your information" to keep the download small and fast.',
+    title: "Export your information",
+    detail: 'Choose "Export your information" from the list of options.',
   },
   {
     n: "04",
-    title: 'Check "Followers and following"',
+    title: "Create Export",
     detail:
-      'Scroll to the Connections section and tick "Followers and following". Uncheck everything else — you only need this.',
+      'Tap "Create Export". Instagram will ask which account and what to include — pick only "Followers and following" under Connections to keep things small.',
   },
   {
     n: "05",
-    title: "Configure the download",
+    title: "Export to Device",
     detail:
-      'Tap Next → select "Download to device". Set the date range to "All time" and, critically, set the format to JSON.',
-    highlight: "Format must be JSON, not HTML.",
+      'Choose "Export to Device" as the destination. This downloads the archive directly instead of sending it to a transfer service.',
   },
   {
     n: "06",
-    title: "Request and receive the file",
+    title: "Configure and submit",
     detail:
-      "Tap Create files. Instagram will email you when the archive is ready — usually within a few minutes. Download the ZIP from that email or from the same Download your information screen.",
+      'Set the date range to "All time", format to JSON, and pick your preferred quality. Confirm your email so Instagram can notify you when the export is ready.',
+    highlight: "Format must be JSON, not HTML.",
   },
   {
     n: "07",
-    title: "Unzip and locate the files",
-    detail: "Extract the ZIP. Inside you will find two files:",
+    title: "Download, unzip, locate the files",
+    detail:
+      "Instagram will email you when the archive is ready — usually within a few minutes. Download the ZIP, extract it, and find these two files inside:",
     files: [
       "followers_and_following / followers_1.json",
       "followers_and_following / following.json",
