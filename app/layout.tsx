@@ -13,11 +13,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Mono:wght@300;400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Mono:wght@300;400;500&family=Instrument+Sans:wght@400;500&display=swap"
         rel="stylesheet"
       />
     </head>
-    <body className="min-h-screen bg-canvas text-ink antialiased font-mono">
+    <body className="min-h-screen bg-canvas text-ink antialiased font-sans">
       {children}
     </body>
   </html>

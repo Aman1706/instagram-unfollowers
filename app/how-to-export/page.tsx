@@ -54,7 +54,7 @@ const HowToExport = () => (
     <div className="mb-10 animate-rise [animation-delay:0ms]">
       <Link
         href="/"
-        className="inline-flex items-center gap-2 text-[10px] tracking-[0.2em] uppercase text-dim no-underline transition-colors duration-150 hover:text-rose"
+        className="inline-flex items-center gap-2 text-[12px] tracking-[0.2em] uppercase text-dim no-underline transition-colors duration-150 hover:text-rose"
       >
         <span>←</span>
         <span>Back</span>
@@ -62,7 +62,7 @@ const HowToExport = () => (
     </div>
 
     <header>
-      <p className="text-[10px] tracking-[0.3em] uppercase text-rose mb-6 animate-rise [animation-delay:40ms]">
+      <p className="text-[12px] tracking-[0.3em] uppercase text-rose mb-6 animate-rise [animation-delay:40ms]">
         Instagram · Data Export Guide
       </p>
       <h1 className="font-serif text-[clamp(48px,9vw,96px)] font-black leading-[0.92] tracking-[-0.02em] animate-rise [animation-delay:100ms]">
@@ -71,7 +71,7 @@ const HowToExport = () => (
         <br />
         your data
       </h1>
-      <p className="mt-7 text-xs leading-[1.9] text-dim max-w-[420px] animate-rise [animation-delay:180ms]">
+      <p className="mt-7 text-[16px] leading-[1.85] text-ink/55 max-w-[420px] animate-rise [animation-delay:180ms]">
         Instagram lets you download a full copy of your account data. Follow
         these steps to get the two JSON files this tool needs.
       </p>
@@ -79,7 +79,7 @@ const HowToExport = () => (
 
     <div className="my-10 h-px bg-gradient-to-r from-edge to-transparent animate-rise [animation-delay:240ms]" />
 
-    <span className="text-[10px] tracking-[0.25em] uppercase text-dim mb-8 block animate-rise [animation-delay:280ms]">
+    <span className="text-[12px] tracking-[0.25em] uppercase text-dim mb-8 block animate-rise [animation-delay:280ms]">
       // seven steps
     </span>
 
@@ -97,10 +97,10 @@ const HowToExport = () => (
             <p className="font-serif text-[18px] font-bold text-ink mb-2 leading-snug">
               {step.title}
             </p>
-            <p className="text-[11px] leading-[1.85] text-dim">{step.detail}</p>
+            <p className="text-[16px] leading-[1.85] text-ink/55">{step.detail}</p>
 
             {step.highlight && (
-              <p className="mt-3 text-[10px] tracking-[0.1em] uppercase text-rose">
+              <p className="mt-3 text-[12px] tracking-[0.1em] uppercase text-rose">
                 ↳ {step.highlight}
               </p>
             )}
@@ -110,7 +110,7 @@ const HowToExport = () => (
                 {step.files.map((f) => (
                   <li
                     key={f}
-                    className="inline-flex items-center gap-2 text-[10px] text-rose/80 tracking-[0.04em] border border-rose/15 bg-rose/4 rounded-sm px-3 py-[7px] w-fit"
+                    className="inline-flex items-center gap-2 text-[12px] text-rose/80 tracking-[0.04em] border border-rose/15 bg-rose/4 rounded-sm px-3 py-[7px] w-fit"
                   >
                     <span className="text-rose/40">↳</span>
                     <span className="font-mono">{f}</span>
@@ -124,16 +124,16 @@ const HowToExport = () => (
     </ol>
 
     <div className="mt-14 p-6 border border-edge rounded-sm bg-surface">
-      <p className="text-[10px] tracking-[0.2em] uppercase text-dim mb-3">
+      <p className="text-[12px] tracking-[0.2em] uppercase text-dim mb-3">
         // ready to analyse?
       </p>
-      <p className="text-[11px] leading-[1.85] text-dim mb-5">
+      <p className="text-[16px] leading-[1.85] text-ink/55 mb-5">
         Once you have both JSON files, head back and drop them into the upload
         zones.
       </p>
       <Link
         href="/"
-        className="inline-flex items-center gap-3 py-[13px] px-[30px] bg-rose text-canvas rounded-sm font-mono text-[11px] tracking-[0.18em] uppercase font-medium no-underline transition-[opacity,transform] duration-200 hover:opacity-85 hover:-translate-y-0.5"
+        className="inline-flex items-center gap-3 py-[13px] px-[30px] bg-rose text-canvas rounded-sm font-mono text-[12px] tracking-[0.18em] uppercase font-medium no-underline transition-[opacity,transform] duration-200 hover:opacity-85 hover:-translate-y-0.5"
       >
         <span>→</span>
         <span>Go to analyser</span>

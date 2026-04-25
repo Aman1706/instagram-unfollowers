@@ -86,7 +86,7 @@ export const UploadZone = ({ title, path, state, onFile, onClear, count, icon }:
       <span className={`block text-[22px] mb-3.5 ${iconColor[state]}`}>{icon}</span>
       <p className="font-serif text-[22px] font-bold text-ink mb-1">{title}</p>
       <p className="text-[9px] text-dim tracking-[0.04em] mb-[18px] break-all">{path}</p>
-      <span className={`text-[10px] tracking-[0.12em] uppercase ${statusColor[state]}`}>
+      <span className={`text-[12px] tracking-[0.12em] uppercase ${statusColor[state]}`}>
         {statusText}
       </span>
     </div>
