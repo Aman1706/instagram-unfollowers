@@ -1,6 +1,6 @@
 # Instagram Unfollowers
 
-Find out who you follow on Instagram that doesn't follow you back — entirely in your browser. No logins, no API keys, no data leaving your device.
+Find out who you follow on Instagram that doesn't follow you back, entirely in your browser. No logins, no API keys, no data leaving your device.
 
 ## How it works
 
